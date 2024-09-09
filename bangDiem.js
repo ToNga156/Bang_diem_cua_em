@@ -30,5 +30,6 @@ function myFunction1() {
 }
 
 function myFunction2() {
-    
+    document.getElementById('semester1').value="";
+    document.getElementById('semester2').value="";
 }
