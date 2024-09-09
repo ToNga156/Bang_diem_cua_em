@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"name": "Python",
+			"path": "../../Python"
+		},
+		{
+			"name": "OOP",
+			"path": "../../OOP"
+		},
+		{
+			"name": "HTML_CSS",
+			"path": "../../HTML_CSS"
+		},
+		{
+			"path": "../../Git_Github"
+		},
+		{
+			"path": "../../GitDemo"
+		},
+		{
+			"path": "../../GitGroup"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JavaScript"
+	}
+}
