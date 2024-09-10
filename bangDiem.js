@@ -1,12 +1,13 @@
-var diemSemester1 = parseFloat(document.getElementById('semester1').value);
-var diemSemester2 = parseFloat(document.getElementById('semester2').value);
-var year = document.getElementById('Year').value;
-
-var diemTB;
-var kqxeploai
-
 function myFunction1() {
-    if (year == 1){
+    var diemSemester1 = parseFloat(document.getElementById('semester1').value);
+    var diemSemester2 = parseFloat(document.getElementById('semester2').value);
+    var year = document.getElementById('Year');
+    var value = parseInt(year.options[year.selectedIndex].value);
+
+    var diemTB;
+    var kqxeploai;
+
+    if (value == 1){
         diemTB = (diemSemester1 + diemSemester2)/2;
     } else if (year == 2) {
         diemTB = (diemSemester1 + diemSemester2*2)/3;
@@ -26,7 +27,7 @@ function myFunction1() {
     } else {
         kqxeploai = "Hoc sinh yeu";
     }
-    document.getElementById('xeploai').value = kqxeploai;
+    document.getElementById('diem').innerHTML = kqxeploai;
 }
 
 function myFunction2() {
